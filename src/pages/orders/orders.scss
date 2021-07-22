@@ -1,0 +1,72 @@
+@import "../../styles//Variables.scss";
+
+.Orders {
+  padding-top: 30px;
+  margin-bottom: 100px;
+  .header {
+    margin-bottom: 30px;
+    button {
+      color: $primary-color;
+      font-weight: 500;
+    }
+  }
+  table {
+    width: 100%;
+    border: $border;
+    border-radius: 10px;
+    th {
+      padding: 15px 10px;
+      border-bottom: $border;
+      font-weight: 700;
+      background-color: $secondary-color;
+      border-right: $border;
+    }
+    td {
+      padding: 5px 10px;
+      border-bottom: $border;
+      border-right: $border;
+    }
+    button {
+      all: unset;
+      cursor: pointer;
+      color: rgb(158, 5, 5);
+    }
+  }
+  .order-details{
+    h6{
+      padding-bottom: 20px;
+    }
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border: 1px solid $secondary-color;
+    border-radius: 10px;
+    hr {
+      background-color: $secondary-color;
+    }
+    span {
+      font-weight: 500;
+    }
+    table {
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        img {
+          width: 100%;
+        }
+        width: 100%;
+        border: $border;
+        tr {
+          border: $border;
+        }
+        th {
+          padding: 10px;
+        }
+        td {
+          padding: 10px;
+        }
+      }
+    
+  }
+}

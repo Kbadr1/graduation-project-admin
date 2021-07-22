@@ -1,0 +1,21 @@
+@import "../../styles/Variables.scss";
+
+.EditBrand {
+  h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  form {
+    border: $border;
+    padding: 30px;
+    border-radius: 10px;
+    input, textarea, select {
+      background-color: $secondary-color;
+      color: $font-color !important;
+      &:focus{
+        background-color: $secondary-color;
+      }
+    }
+  }
+}

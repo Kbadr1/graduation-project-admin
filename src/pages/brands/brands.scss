@@ -1,0 +1,36 @@
+@import "../../styles//Variables.scss";
+
+
+.Brands {
+  padding-top: 30px;
+  margin-bottom: 100px;
+  .header {
+    margin-bottom: 30px;
+    button {
+      color: $primary-color;
+      font-weight: 500;
+    }
+  }
+  table {
+    width: 100%;
+    border: $border;
+    border-radius: 10px;
+    th {
+      padding: 15px 10px;
+      border-bottom: $border;
+      font-weight: 700;
+      background-color: $secondary-color;
+      border-right: $border;
+    }
+    td {
+      padding: 5px 10px;
+      border-bottom: $border;
+      border-right: $border;
+    }
+    button {
+      all: unset;
+      cursor: pointer;
+      color: rgb(158, 5, 5);
+    }
+  }
+}
